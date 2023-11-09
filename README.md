@@ -1,6 +1,6 @@
 # mujoco-mjx-pixi-example
 
-Example of running the official Mujoco MJX example without Colab with pixi.
+Example of running the official Mujoco MJX Jupyter Notebook example without Colab with pixi.
 
 ## Requirements
 
@@ -17,6 +17,13 @@ pixi run tutorial_notebook
 ~~~
 
 and then follow the notebook.
+
+If you are running the notebook on a remote machine to which you are connecting via ssh, make sure to [setup an SSH tunnel for the port of the notebook](https://docs.anaconda.com/free/anaconda/jupyter-notebooks/remote-jupyter-notebook/), i.e. : 
+~~~
+ssh -L 8888:localhost:8888 <REMOTE_USER>@<REMOTE_HOST>
+cd mujoco-mjx-pixi-example
+pixi run tutorial_notebook --no-browser --port=8888
+~~~
 
 ## Details
 
