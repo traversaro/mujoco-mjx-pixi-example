@@ -1,0 +1,5 @@
+# pixi environments
+.pixi
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
