@@ -8,7 +8,7 @@ Linux system with Nvidia GPU with CUDA support, with an appropriat amount of VRA
 
 ## Run
 
-If you do not have it, install [pixi](https://github.com/prefix-dev/pixi#macos-and-linux), then:
+If you do not have it, install [pixi](https://github.com/prefix-dev/pixi#macos-and-linux) (in a nutshell: `curl -fsSL https://pixi.sh/install.sh | bash`), then:
 
 ~~~
 git clone https://github.com/traversaro/mujoco-mjx-pixi-example
@@ -27,4 +27,4 @@ pixi run tutorial_notebook --no-browser --port=8888
 
 ## Details
 
-The notebook is based on https://github.com/google-deepmind/mujoco/blob/3.0.0/mjx/tutorial.ipynb, with some modifications to permit to run the notebook outside Google Colab.
+The notebook is based on https://github.com/google-deepmind/mujoco/blob/d0cabcf7dbf004f234bc0d9ba9dfe719a97d4e66/mjx/tutorial.ipynb, with some modifications to permit to run the notebook outside Google Colab.
