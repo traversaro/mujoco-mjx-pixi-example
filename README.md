@@ -4,7 +4,7 @@ Example of running the official Mujoco MJX Jupyter Notebook example without Cola
 
 ## Requirements
 
-Linux system with Nvidia GPU with CUDA support, with an appropriat amount of VRAM (>4GB fo sure).
+Linux system with Nvidia GPU with CUDA support, with at least 8 GB of VRAM (tested on GeForce RTX 3070).
 
 ## Run
 
