@@ -11,7 +11,7 @@ unix = true
 cuda = "11.8"
 
 [tasks]
-tutorial_notebook = "jupyter notebook tutorial.ipynb"
+notebook_tutorial = "jupyter notebook tutorial.ipynb"
 
 [dependencies]
 brax       = "0.9.3.*"
