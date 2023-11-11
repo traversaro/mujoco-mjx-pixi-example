@@ -13,7 +13,7 @@ If you do not have it, install [pixi](https://github.com/prefix-dev/pixi#macos-a
 ~~~
 git clone https://github.com/traversaro/mujoco-mjx-pixi-example
 cd mujoco-mjx-pixi-example
-pixi run tutorial_notebook
+pixi run notebook_tutorial
 ~~~
 
 and then follow the notebook.
@@ -22,7 +22,7 @@ If you are running the notebook on a remote machine to which you are connecting 
 ~~~
 ssh -L 8888:localhost:8888 <REMOTE_USER>@<REMOTE_HOST>
 cd mujoco-mjx-pixi-example
-pixi run tutorial_notebook --no-browser --port=8888
+pixi run notebook_tutorial --no-browser --port=8888
 ~~~
 
 ## Details
